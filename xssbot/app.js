@@ -22,7 +22,7 @@ app.get('/', async (req, res) => {
       return res.json({error: 'message is not a valid url, read message'});
     }
 
-    console.log("message is: " + message);
+    console.log("reading message: " + message);
     const status = await visit(message);
     return status == 0 ?
       res.json({success: 'message is a valid url, visited url.'}) :
