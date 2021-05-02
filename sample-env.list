@@ -1,0 +1,6 @@
+COOKIE_NAME=secret-cookie
+COOKIE_VALUE=secret-session
+COOKIE_URL=http://vulnapp
+FLAG=flag{f4ke_fl4g}
+VULNAPP_HOST=vulnapp
+XSSBOT_HOST=xssbot

@@ -1,0 +1,40 @@
+.page {
+  box-sizing:border-box;
+  left:50%;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+.menu {
+  box-sizing:border-box;
+  left:90%;
+  position:fixed;
+  text-align:center;
+  top:2%;
+  /* transform:translate(-50%, -50%); */
+}
+
+h2, p, a {
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: monospace, Arial, Helvetica;
+  color:#dad8ec;
+}
+
+p {
+  border: 3px solid;
+}
+
+input {
+  width: 100%;
+}
+
+#matrix {
+  /* position: absolute; */
+  z-index: -1;
+  pointer-events: none;
+  position:fixed;
+}
