@@ -7,15 +7,6 @@
   transform:translate(-50%, -50%);
 }
 
-.menu {
-  box-sizing:border-box;
-  left:90%;
-  position:fixed;
-  text-align:center;
-  top:2%;
-  /* transform:translate(-50%, -50%); */
-}
-
 h2, p, a {
   font-weight: bold;
   font-size: 20px;
